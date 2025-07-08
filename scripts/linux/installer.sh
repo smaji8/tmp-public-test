@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Linux installer bash script"
+echo "PR check"
 echo "Number of arguments passed: $#"
 echo "All arguments: $@"
 
