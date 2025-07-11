@@ -18,7 +18,7 @@ jobs:
 
       - name: Prepare preview content in /tmp (read-only)
         run: |
-          STAGING_DIR="/tmp/preview"
+          STAGING_DIR="/tmp/preview/non-prod"
           mkdir -p "$STAGING_DIR"
           INDEX_FILE="$STAGING_DIR/index.html"
 
